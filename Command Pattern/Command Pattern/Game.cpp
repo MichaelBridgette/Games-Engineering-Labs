@@ -53,14 +53,7 @@ void Game::HandleEvents()
 		break;
 
 	case SDL_KEYDOWN:
-		switch (event.key.keysym.sym)
-		{
-		case SDLK_LEFT:
-			std::cout << "Left key down" << std::endl;
-			break;
-		default:
-			break;
-		}
+		handler.handleInput(event.key.keysym.sym);
 		break;
 	}
 

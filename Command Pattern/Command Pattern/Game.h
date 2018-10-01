@@ -1,6 +1,7 @@
 #pragma once
 #include<SDL.h>
 #include<iostream>
+#include"InputHandler.h"
 class Game {
 public:
 	Game();
@@ -18,6 +19,8 @@ private:
 	bool isRunning;
 	SDL_Window *window;
 	SDL_Renderer *renderer;
+
+	InputHandler handler;
 
 
 };
