@@ -2,6 +2,7 @@
 
 #include"AnimatedSprite.h"
 #include"Animation.h"
+#include"InputHandler.h"
 class Player {
 public:
 	Player(SDL_Renderer * r);
@@ -13,7 +14,7 @@ private:
 	Animation animation;
 	AnimatedSprite * animatedSprite;
 	SDL_Renderer * renderer;
-
+	InputHandler * handler;
 
 
 	std::vector<const char *> names;

@@ -36,6 +36,8 @@ Player::Player(SDL_Renderer * r)
 										renderer, 350, 350,names,amountOfImages,
 										Xpos,Ypos,widths,heights);
 	animation.setSprite(*animatedSprite);
+
+	handler = new InputHandler(&animation);
 }
 
 void Player::update()
@@ -50,16 +52,5 @@ void Player::draw()
 
 void Player::handleInput(SDL_Keycode keycode)
 {
-	switch (keycode)
-	{
-	case SDLK_a:
-		animation.idle();
-		break;
-	case SDLK_d:
-		animation.jumping();
-		break;
-	case SDLK_w:
-		animation.climbing();
-		break;
-	}
+	handler->handleInput(keycode);
 }
