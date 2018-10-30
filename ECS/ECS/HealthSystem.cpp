@@ -24,7 +24,7 @@ void HealthSystem::updateComponent(Component * c)
 		if (healthComp != nullptr)
 		{
 			int health = healthComp->getHealth();
-			std::cout << health << std::endl;
+			//std::cout << health << std::endl;
 			health--;
 			healthComp->setHealth(health);
 			

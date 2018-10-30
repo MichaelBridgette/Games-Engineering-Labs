@@ -54,10 +54,38 @@ void Game::Init(const char * title, int xPos, int yPos, int width, int height, b
 	player.addComponent(new HealthComponent());
 	player.addComponent(new PositionComponent(150,150));
 	player.addComponent(new RenderComponent("square.png", 64, 64, renderer));
+
+	dog.addComponent(new HealthComponent());
+	dog.addComponent(new PositionComponent(250, 250));
+	dog.addComponent(new RenderComponent("square2.png", 64, 64, renderer));
+
+	cat.addComponent(new HealthComponent());
+	cat.addComponent(new PositionComponent(250, 350));
+	cat.addComponent(new RenderComponent("square3.png", 64, 64, renderer));
+
+	alien.addComponent(new HealthComponent());
+	alien.addComponent(new PositionComponent(250, 450));
+	alien.addComponent(new RenderComponent("square4.png", 64, 64, renderer));
+
 	healthSystem.addEntity(player);
 	positionSystem.addEntity(player);
 	controlSystem.addEntity(player);
 	renderSystem.addEntity(player);
+
+	healthSystem.addEntity(dog);
+	positionSystem.addEntity(dog);
+	renderSystem.addEntity(dog);
+	aiSystem.addEntity(dog);
+
+	healthSystem.addEntity(cat);
+	positionSystem.addEntity(cat);
+	renderSystem.addEntity(cat);
+	aiSystem.addEntity(cat);
+
+	healthSystem.addEntity(alien);
+	positionSystem.addEntity(alien);
+	renderSystem.addEntity(alien);
+	aiSystem.addEntity(alien);
 }
 
 void Game::HandleEvents()
@@ -75,7 +103,6 @@ void Game::HandleEvents()
 		break;
 
 	case SDL_KEYDOWN:
-		//handler.handleInput(event.key.keysym.sym);
 		controlSystem.handleInput(event.key.keysym.sym);
 		break;
 	}
@@ -84,9 +111,10 @@ void Game::HandleEvents()
 
 void Game::Update()
 {
-	system("cls");
+	//system("cls");
 	healthSystem.update();
 	positionSystem.update();
+	aiSystem.update();
 }
 
 void Game::Draw()

@@ -20,8 +20,8 @@ void PositionSystem::updateComponent(Component * c)
 		PositionComponent * posComp = dynamic_cast<PositionComponent *>(c);
 		if (posComp != nullptr)
 		{
-			std::cout << "Position: " << posComp->getPositionX() << ","
-				<< posComp->getPositionY() << std::endl;
+			//std::cout << "Position: " << posComp->getPositionX() << ","
+			//	<< posComp->getPositionY() << std::endl;
 		}
 	}
 }

@@ -9,6 +9,7 @@
 #include"ControlSystem.h"
 #include"SDL_image.h"
 #include"RenderSystem.h"
+#include"AiSystem.h"
 class Game {
 public:
 	Game();
@@ -28,9 +29,13 @@ private:
 	SDL_Renderer *renderer;
 
 	Entity player;
+	Entity dog;
+	Entity cat;
+	Entity alien;
 	//HealthComponent * healthComp;
 	HealthSystem healthSystem;
 	PositionSystem positionSystem;
 	ControlSystem controlSystem;
 	RenderSystem renderSystem;
+	AiSystem aiSystem;
 };
