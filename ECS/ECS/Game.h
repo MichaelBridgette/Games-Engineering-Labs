@@ -5,6 +5,10 @@
 #include"Component.h"
 #include"HealthSystem.h"
 #include"HealthComponent.h"
+#include "PositionSystem.h"
+#include"ControlSystem.h"
+#include"SDL_image.h"
+#include"RenderSystem.h"
 class Game {
 public:
 	Game();
@@ -26,4 +30,7 @@ private:
 	Entity player;
 	//HealthComponent * healthComp;
 	HealthSystem healthSystem;
+	PositionSystem positionSystem;
+	ControlSystem controlSystem;
+	RenderSystem renderSystem;
 };
