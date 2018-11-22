@@ -18,6 +18,23 @@ namespace UnitTest1
 
 			Assert::AreEqual(checkForDuplicate(1, coll), true);
 		}
+
+		TEST_METHOD(TestForLimit)
+		{
+			// TODO: Your test code here
+			std::vector<int> coll;
+			
+			for (int i = 0; i < 6; i++)
+			{
+				checkForDuplicate(i, coll);
+			}
+			
+			//if amount of nums go over 6 they should be removed
+
+			int size = coll.size();
+			Assert::AreEqual(size, 6);
+		}
+
 		TEST_METHOD(TestForDuplicate2)
 		{
 			// TODO: Your test code here

@@ -1,11 +1,10 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\unittest1\debug\vc141.pdb' because it is being used by another process.
-  stdafx.cpp
+﻿  stdafx.cpp
   unittest1.cpp
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(23): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(37): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(46): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(55): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(57): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\unittest1\unittest1.cpp(108): warning C4018: '<': signed/unsigned mismatch
-     Creating library C:\Users\A Jamaican Hobo\Desktop\Games-Engineering-Labs\Lotto\Debug\UnitTest1.lib and object C:\Users\A Jamaican Hobo\Desktop\Games-Engineering-Labs\Lotto\Debug\UnitTest1.exp
-  UnitTest1.vcxproj -> C:\Users\A Jamaican Hobo\Desktop\Games-Engineering-Labs\Lotto\Debug\UnitTest1.dll
+c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(44): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(53): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(64): warning C4018: '<': signed/unsigned mismatch
+c:\users\micha\documents\games-engineering-labs\lotto\unittest1\unittest1.cpp(125): warning C4018: '<': signed/unsigned mismatch
+     Creating library C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.lib and object C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.dll

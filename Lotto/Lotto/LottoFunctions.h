@@ -27,7 +27,14 @@ bool checkForDuplicate(int number, std::vector<int> &collection)
 			return true;
 		}
 	}
+
 	collection.push_back(number);
+	
+	if (collection.size() > 6)
+	{
+		collection.pop_back();
+	}
+	
 
 	return false;
 }
