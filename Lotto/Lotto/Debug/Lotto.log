@@ -1,9 +1,9 @@
 ﻿  stdafx.cpp
   Lotto.cpp
-c:\users\a jamaican hobo\desktop\lotto\lotto\lottofunctions.h(29): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\lotto\lotto\lottofunctions.h(43): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\a jamaican hobo\desktop\lotto\lotto\lottofunctions.h(50): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\lotto\lotto\lottofunctions.h(59): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\lotto\lotto\lottofunctions.h(61): warning C4018: '<': signed/unsigned mismatch
-c:\users\a jamaican hobo\desktop\lotto\lotto\lotto.cpp(115): warning C4018: '<': signed/unsigned mismatch
-  Lotto.vcxproj -> C:\Users\A Jamaican Hobo\Desktop\Lotto\Debug\Lotto.exe
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(37): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lottofunctions.h(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\a jamaican hobo\desktop\games-engineering-labs\lotto\lotto\lotto.cpp(115): warning C4018: '<': signed/unsigned mismatch
+  Lotto.vcxproj -> C:\Users\A Jamaican Hobo\Desktop\Games-Engineering-Labs\Lotto\Debug\Lotto.exe

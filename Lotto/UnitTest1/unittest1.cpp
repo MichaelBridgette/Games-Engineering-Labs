@@ -92,5 +92,23 @@ namespace UnitTest1
 
 			Assert::AreEqual(getMatches(myNumbers, lotto), 1);
 		}
+		TEST_METHOD(LottoGenNumCount)
+		{
+			std::vector<int> lotto;
+			generateLottoNumbers(lotto);
+		
+			int size = lotto.size();
+			Assert::AreEqual(size , 6);
+		}
+		TEST_METHOD(LottoGenBoundaryCheck)
+		{
+			std::vector<int> lotto;
+			generateLottoNumbers(lotto);
+
+			for (int i = 0; i < lotto.size(); i++)
+			{
+				Assert::AreEqual(numCheck(lotto.at(i)), true);
+			}
+		}
 	};
 }

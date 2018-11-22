@@ -20,12 +20,6 @@ bool numCheck(int number)
 
 bool checkForDuplicate(int number, std::vector<int> &collection)
 {
-	/*if (collection.size() == 0)
-	{
-	collection.push_back(number);
-	return false;
-	}*/
-
 	for (int i = 0; i < collection.size(); i++)
 	{
 		if (collection.at(i) == number)
@@ -46,6 +40,8 @@ void generateLottoNumbers(std::vector<int> & lotto)
 	{
 		checkForDuplicate(rand() % 46 + 1, lotto);
 	}
+
+
 	std::cout << "The lotto numbers are: ";
 	for (int i = 0; i < lotto.size(); i++)
 	{
