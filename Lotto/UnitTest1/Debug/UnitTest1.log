@@ -1,10 +1,8 @@
-﻿  stdafx.cpp
-  unittest1.cpp
+﻿  unittest1.cpp
 c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(23): warning C4018: '<': signed/unsigned mismatch
 c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(44): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(53): warning C4018: '<': signed/unsigned mismatch
 c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(62): warning C4018: '<': signed/unsigned mismatch
 c:\users\micha\documents\games-engineering-labs\lotto\lotto\lottofunctions.h(64): warning C4018: '<': signed/unsigned mismatch
 c:\users\micha\documents\games-engineering-labs\lotto\unittest1\unittest1.cpp(125): warning C4018: '<': signed/unsigned mismatch
-     Creating library C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.lib and object C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.exp
   UnitTest1.vcxproj -> C:\Users\micha\Documents\Games-Engineering-Labs\Lotto\Debug\UnitTest1.dll

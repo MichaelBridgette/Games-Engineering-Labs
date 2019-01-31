@@ -33,7 +33,7 @@ bool checkForDuplicate(int number, std::vector<int> &collection)
 	if (collection.size() > 6)
 	{
 		collection.pop_back();
-	}
+	}                                                                                                                                                         
 	
 
 	return false;
