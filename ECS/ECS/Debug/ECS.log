@@ -1,2 +1,20 @@
-﻿  ControlSystem.cpp
-  ECS.vcxproj -> C:\Users\micha\Documents\Games Engineering 2\Games-Engineering-Labs\ECS\Debug\ECS.exe
+﻿  AiSystem.cpp
+c:\users\micha\documents\games-engineering-labs\ecs\ecs\aisystem.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\micha\documents\games-engineering-labs\ecs\ecs\aisystem.cpp(13): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\micha\documents\games-engineering-labs\ecs\ecs\aisystem.cpp(18): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\micha\documents\games-engineering-labs\ecs\ecs\aisystem.cpp(41): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\micha\documents\games-engineering-labs\ecs\ecs\aisystem.cpp(46): warning C4305: '=': truncation from 'double' to 'float'
+  Component.cpp
+  ControlComponent.cpp
+  ControlSystem.cpp
+  Game.cpp
+  HealthComponent.cpp
+  HealthSystem.cpp
+  main.cpp
+  PositionComponent.cpp
+  PositionSystem.cpp
+  RenderComponent.cpp
+  RenderSystem.cpp
+  System.cpp
+  Generating Code...
+  ECS.vcxproj -> C:\Users\micha\Documents\Games-Engineering-Labs\ECS\Debug\ECS.exe

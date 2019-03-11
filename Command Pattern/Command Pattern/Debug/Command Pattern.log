@@ -1,3 +1,1 @@
-﻿  InputHandler.cpp
-c:\users\micha\documents\games engineering 2\games-engineering-labs\command pattern\command pattern\inputhandler.cpp(40): warning C4018: '<': signed/unsigned mismatch
-  Command Pattern.vcxproj -> C:\Users\micha\Documents\Games Engineering 2\Games-Engineering-Labs\Command Pattern\Debug\Command Pattern.exe
+﻿  Command Pattern.vcxproj -> C:\Users\micha\Documents\Games-Engineering-Labs\Command Pattern\Debug\Command Pattern.exe
